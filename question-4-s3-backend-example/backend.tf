@@ -2,7 +2,7 @@
 
 ### Example S3 Remote Backend Configuration Block
 
-```hcl
+
 terraform {
   backend "s3" {
     bucket         = "my-terraform-state-bucket"

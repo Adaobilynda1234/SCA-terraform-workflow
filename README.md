@@ -35,7 +35,7 @@ terraform-workflow/
 │   ├── question-3-remote-backend/
 │   │   └── answer.md          ← What is a remote backend?
 │   └── q4-s3-backend-example/
-│       └── answer.md          ← S3 remote backend configuration block
+│       └── backend.tf         ← S3 remote backend configuration block
 │
 ├── terraform-config/
 │   ├── provider.tf            ← Terraform version + AWS provider block
