@@ -340,3 +340,8 @@ All Terraform command outputs are in the `screenshots/` folder:
 ## ✅ Conclusion
 
 This project successfully demonstrates the complete Terraform workflow and highlights best practices for managing infrastructure state in a collaborative environment using AWS S3 and DynamoDB as a remote backend.
+
+## Author
+
+**Adaobi Okwuosa**  
+Date: April 2026
