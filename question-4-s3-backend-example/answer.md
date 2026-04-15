@@ -70,23 +70,3 @@ resource "aws_dynamodb_table" "terraform_state_lock" {
 }
 ```
 
-### Initialize the Backend
-
-```bash
-terraform init
-# Terraform will prompt: "Do you want to copy existing state to the new backend?"
-# Type: yes
-```
-
-### How Locking Works
-
-```
-terraform apply
-  │
-  ├─► Acquires lock in DynamoDB (LockID = <state path>)
-  ├─► Reads current state from S3
-  ├─► Applies changes
-  ├─► Writes new state to S3
-  └─► Releases DynamoDB lock
-```
-
